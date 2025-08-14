@@ -38,3 +38,14 @@ A **FastAPI-based** application that allows you to:
 
 ## 📂 Project Structure
 
+```plaintext
+tts_app/
+│── main.py        # FastAPI entry point & routes
+│── tts_model.py   # Text-to-Speech logic (gTTS & pyttsx3)
+│── recognize.py   # Speech recognition + voice output
+│── audio/         # Generated audio files
+│── static/
+│   └── index.html # Frontend UI
+│── __pycache__/   # Cached Python bytecode
+---
+
